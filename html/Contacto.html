@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta charset="UTF-8">
+    <title> New life </title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Script para los menús -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="../js/script.js"></script>
+
+
+</head>
+<body>
+
+
+    <div id="wrapper">
+
+
+        <div id="header">
+            <h3>NewLife</h3>
+        </div>
+
+
+		<!-- MENU-->
+        <div id='cssmenu'>
+
+            <ul>
+               <li class='active'><a href='ejercicioLayouter.html'><span>Inicio</span></a></li>
+               <li class='has-sub'><a href='paginainfo'><span>Información</span></a>
+			
+                  <ul>
+                     <li><a href='#1info'><span>Animales</span></a></li>
+                     <li><a href='#2info'><span>Alimentos</span></a></li>
+                     <li class='last'><a href='#3info'><span>Ejemplos</span></a></li>
+
+                  </ul>
+
+               </li>
+
+               <li class='has-sub'><a href='paginaimages'><span>Galería</span></a>
+               </li>
+
+			   <li class='last'><a href='Tarifas.html'><span>Tarifas</span></a></li>
+               <li class='last'><a href='Contacto.html'><span>Contacto</span></a></li>
+
+            </ul>
+        </div>	
+
+        <!-- Div central -->        
+        <div id="middle">
+
+                <!--Panel izquierda -->
+            <div id="content">
+
+                <form>
+                    <fieldset>
+
+                        <legend> Datos personales </legend>
+
+                            <label> Introduce tu nombre y apellidos : </label> 
+                                        <input type="text" name="nombre" > <br>
+
+                            <label> Codigo postal: </label> 
+                                        <input type="text" name="CD" minlength="5" maxlength="5" > <br>
+
+                            <label> Introduce tu correo electronico: </label>
+                                        <input type="email" name="email" > <br>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend> Información de interes </legend>
+
+                            <label> Selecciona tu centro de interes: </label> 
+
+                                    <select name="formulario">
+
+                                        <option value="opcion1"> Adopciones </option>
+                                        <option value="opcion2"> Alimento </option>
+                                        <option value="opcion3"> Precios </option>
+                                        <option value="opcion3"> Otro </option>
+                                                
+                                    </select> <br>
+
+                            <label> Autorizo a la recopilacion de mis datos personales: </label> <br>
+
+                                <input type="radio" name="Autorizacion"> Si 
+                                <input type="radio" name="Carrera"> No
+                                    
+                    </fieldset> <br>
+
+                    <input type="submit" name="Enviar" value="Enviar "> 
+                    <input type="reset" name="Borrar" value="Borrar">
+
+                </form>     
+            </div>
+
+        <!-- #middle-->
+        </div>
+    
+		<div id="footer">
+			<a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="../images/facebook.png" width="25px" height="25px"></a>
+			<a href="https://www.instagram.com/" target="_blank"><img src="../images/instagram.png" width="25px" height="25px"></a>
+			<a href="https://x.com/?lang=es" target="_blank"><img src="../images/twitter.png" width="25px" height="25px"></a>
+			<a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank"><img src="../images/youtube.png" width="25px" height="25px"></a>
+			<a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="../images/whatsapp.png" width="25px" height="25px"></a>
+		</div>
+        
+        <!-- #footer -->
+    </div>  
+
+
+</body>
+
+
+</html>
+

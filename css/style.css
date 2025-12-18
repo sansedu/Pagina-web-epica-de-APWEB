@@ -1,0 +1,130 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 17px;
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 25px;
+	background: mediumaquamarine;
+	text-align: center;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+    background-color: #CBC3E3; 
+    overflow: auto;
+}
+
+#content {
+    /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
+	width: 790px;
+	float: left;
+    background-color: #CBC3E3;
+    padding: 10px;
+}
+
+#content strong{
+	font-size: 21px;
+}
+
+#sideRight {
+	float: left;
+	width: 150px;	
+	background: #FFACAA;
+}
+
+#content #gale{
+	margin: 10px;
+}
+
+
+/* rubi tarifas */
+table {border-style: solid;
+		border-color: black;
+		background-color: rgba(235, 230, 230, 0.815);
+		text-align: center;
+		vertical-align: middle;}
+
+tr, td {border: 1px solid black ;
+		border-color:rgba(0, 0, 0, 0.541);
+		width: 150px;
+		height: 50px;}
+
+th {background-color: rgb(203, 158, 224);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0.295);}
+
+th:hover {border-color: rgb(0, 255, 179);}
+
+/* Formulario */
+
+input, select{
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+
+form {background: url(../images/Fondo\ formulario.png) no-repeat;
+  padding: 40px;
+  margin: 100px;}
+
+fieldset {text-align: left;}
+
+legend {
+  color: #474544;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background-color: rgba(222, 186, 243, 0.377);
+  	border: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	color: #474544;
+	font-size: 1.000em;
+  	font-weight: 400;
+  	letter-spacing: 1px;
+	margin: 4px;
+	padding: 2px ;
+	width: 100%;
+
+	/* Contenido nuevo, este comando realiza la transicion de las cabinas de texto input y a los segundos que se hace */
+	 transition: all 0.3s; } 
+
+input[type='text']:focus, [type='email']:focus, textarea:focus { 
+	/* (El focus se usa para estilos especificos) */
+	outline: none;
+	padding: 0 0 0.875em 0;
+	background-color: rgba(255, 140, 0, 0.123);
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {	/* Separación de los iconos de todos los logos de redes sociales para todas las paginas */
+	margin-left: 550px;
+	margin-top: 18px;
+	width: 960px;
+	height: 30px;
+	background-color: white;
+}
+
+#footer img{
+	margin: 5px;
+}
